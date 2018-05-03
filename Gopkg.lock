@@ -75,10 +75,11 @@
     "gogenerate/config/internal/legacy",
     "gogenerate/config/internal/v0"
   ]
-  revision = "daee731dfcadc32a43af9b5a0dd3244d9357b2d1"
-  version = "v1.0.0-rc3"
+  revision = "fc109310071aea37382552c26c9cb963226739a6"
+  version = "v1.0.0"
 
 [[projects]]
+  branch = "master"
   name = "github.com/palantir/godel"
   packages = [
     "framework/artifactresolver",
@@ -107,8 +108,7 @@
     "pkg/products",
     "pkg/versionedconfig"
   ]
-  revision = "e952ea3e373a433e2a8a8a3cdfb06b0de0b35462"
-  version = "v2.0.0-rc10"
+  revision = "d37f4748b5d2615535458a5d7815f82f3b659cb9"
 
 [[projects]]
   branch = "master"
@@ -192,6 +192,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "c53aefd17fa18ce50468189de27c88a9b3d8e5a1bf5cdc7019277d85834c10f1"
+  inputs-digest = "627d39a9934f4db733b2704ab5332641ad2894760a73d79a34c6a4556049243b"
   solver-name = "gps-cdcl"
   solver-version = 1
