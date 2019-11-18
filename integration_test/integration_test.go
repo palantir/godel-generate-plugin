@@ -13,13 +13,19 @@ import (
 
 	"github.com/nmiyake/pkg/dirs"
 	"github.com/nmiyake/pkg/gofiles"
-	"github.com/palantir/godel/framework/pluginapitester"
-	"github.com/palantir/godel/pkg/products/v2/products"
+	"github.com/palantir/godel/v2/framework/pluginapitester"
+	"github.com/palantir/godel/v2/pkg/products"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
 
 func TestGenerateVerify(t *testing.T) {
+	restoreEnvVars := setEnvVars(map[string]string{
+		"GO111MODULE": "",
+		"GOFLAGS":     "",
+	})
+	defer restoreEnvVars()
+
 	pluginPath, err := products.Bin("generate-plugin")
 	require.NoError(t, err)
 
@@ -178,4 +184,30 @@ generators:
 			},
 		},
 	)
+}
+
+func setEnvVars(envVars map[string]string) func() {
+	origVars := make(map[string]string)
+	var unsetVars []string
+	for k := range envVars {
+		val, ok := os.LookupEnv(k)
+		if !ok {
+			unsetVars = append(unsetVars, k)
+			continue
+		}
+		origVars[k] = val
+	}
+
+	for k, v := range envVars {
+		_ = os.Setenv(k, v)
+	}
+
+	return func() {
+		for _, k := range unsetVars {
+			_ = os.Unsetenv(k)
+		}
+		for k, v := range origVars {
+			_ = os.Setenv(k, v)
+		}
+	}
 }
