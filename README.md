@@ -1,3 +1,7 @@
+<p align="right">
+<a href="https://autorelease.general.dmz.palantir.tech/palantir/godel-generate-plugin"><img src="https://img.shields.io/badge/Perform%20an-Autorelease-success.svg" alt="Autorelease"></a>
+</p>
+
 generate-plugin
 ===============
 `generate-plugin` is a [godel](https://github.com/palantir/godel) plugin for [`go-generate`](https://github.com/palantir/go-generate). It provides a task that runs "go generate" based on project configuration and a verification task that verifies that the current state of the project matches what is expected. 
