@@ -48,6 +48,11 @@ generators:
 
 	specs := []gofiles.GoFileSpec{
 		{
+			RelPath: "gen/go.mod",
+			Src: `module github.com/palantir/godel-generate-plugin/integration_test
+`,
+		},
+		{
 			RelPath: "gen/testbar.go",
 			Src: `package testbar
 
