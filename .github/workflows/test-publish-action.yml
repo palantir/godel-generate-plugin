@@ -23,7 +23,7 @@ jobs:
         with:
           path: |
             ~/.godel
-          key: ${{ runner.os }}-go-${{ hashFiles('godelw', 'godel/config/godel.yml') }}
+          key: ${{ runner.os }}-godel-${{ hashFiles('godelw', 'godel/config/godel.yml') }}
           restore-keys: |
             ${{ runner.os }}-godel-
       - run: ./godelw dist
