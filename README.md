@@ -18,3 +18,7 @@ When run as part of the `verify` task, if `apply=true`, then the `generate` task
 `generate --verify` is run, which verifies that the running "generate" does not modify the content of the target output
 files. Note that, even when "apply=false", the task may change state on disk (because there is no way to control what
 the individual "generate" tasks actually do).
+
+Notes
+-----
+Testing github.com publish
