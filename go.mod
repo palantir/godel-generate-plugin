@@ -7,7 +7,7 @@ require (
 	github.com/nmiyake/pkg/gofiles v1.2.0
 	github.com/palantir/go-generate v1.2.0
 	github.com/palantir/godel/pkg/products/v2 v2.0.0
-	github.com/palantir/godel/v2 v2.81.0
+	github.com/palantir/godel/v2 v2.82.0
 	github.com/palantir/pkg/cobracli v1.2.0
 	github.com/spf13/cobra v1.6.1
 	github.com/stretchr/testify v1.8.2
