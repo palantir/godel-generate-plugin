@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/nmiyake/pkg/dirs v1.1.0
 	github.com/nmiyake/pkg/gofiles v1.2.0
-	github.com/palantir/go-generate v1.2.0
+	github.com/palantir/go-generate v1.24.0
 	github.com/palantir/godel/pkg/products/v2 v2.0.0
 	github.com/palantir/godel/v2 v2.88.0
 	github.com/palantir/pkg/cobracli v1.2.0
