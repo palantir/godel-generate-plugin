@@ -5,9 +5,9 @@ go 1.21
 require (
 	github.com/nmiyake/pkg/dirs v1.1.0
 	github.com/nmiyake/pkg/gofiles v1.2.0
-	github.com/palantir/go-generate v1.25.0
+	github.com/palantir/go-generate v1.26.0
 	github.com/palantir/godel/pkg/products/v2 v2.0.0
-	github.com/palantir/godel/v2 v2.91.0
+	github.com/palantir/godel/v2 v2.92.0
 	github.com/palantir/pkg/cobracli v1.2.0
 	github.com/spf13/cobra v1.7.0
 	github.com/stretchr/testify v1.8.4
