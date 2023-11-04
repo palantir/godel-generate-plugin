@@ -9,7 +9,7 @@ require (
 	github.com/palantir/godel/pkg/products/v2 v2.0.0
 	github.com/palantir/godel/v2 v2.93.0
 	github.com/palantir/pkg/cobracli v1.2.0
-	github.com/spf13/cobra v1.7.0
+	github.com/spf13/cobra v1.8.0
 	github.com/stretchr/testify v1.8.4
 )
 
