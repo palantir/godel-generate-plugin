@@ -7,7 +7,7 @@ require (
 	github.com/nmiyake/pkg/gofiles v1.2.0
 	github.com/palantir/go-generate v1.28.0
 	github.com/palantir/godel/pkg/products/v2 v2.0.0
-	github.com/palantir/godel/v2 v2.95.0
+	github.com/palantir/godel/v2 v2.96.0
 	github.com/palantir/pkg/cobracli v1.2.0
 	github.com/spf13/cobra v1.8.0
 	github.com/stretchr/testify v1.8.4
@@ -44,7 +44,7 @@ require (
 	github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8 // indirect
 	golang.org/x/mod v0.14.0 // indirect
 	golang.org/x/sys v0.14.0 // indirect
-	golang.org/x/tools v0.16.0 // indirect
+	golang.org/x/tools v0.16.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
