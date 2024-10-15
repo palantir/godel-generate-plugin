@@ -58,8 +58,8 @@ github.com/palantir/go-generate v1.35.0 h1:xZH6HNo0esUDbXcr4UPHnAK2CPXdS7wSYrEXD
 github.com/palantir/go-generate v1.35.0/go.mod h1:l9EMsWKtyUa7QdNf6Wy0SyF+1nEQhw28qAuhB7i7elQ=
 github.com/palantir/godel/pkg/products/v2 v2.0.0 h1:E3DuAEA1yotLLDQt7vIrYRapRwXRyW6u8Yuq2p/qyLs=
 github.com/palantir/godel/pkg/products/v2 v2.0.0/go.mod h1:SaLUycZLVP5qV6mL9MWG3jkX4dS23lJnzpubTGAV4FU=
-github.com/palantir/godel/v2 v2.119.0 h1:jUDEOxfMOovcy6idAZKlT8SzWUEeJbc7VZbVcwRtBJ4=
-github.com/palantir/godel/v2 v2.119.0/go.mod h1:TVDmWkNg0Iv1C1jDG9QlRC596OJcFboL9/+K5OK9TSk=
+github.com/palantir/godel/v2 v2.120.0 h1:BHYhTghIOkohVAFwqTzSQ1YauhSLrArRnzdfHtwFO8k=
+github.com/palantir/godel/v2 v2.120.0/go.mod h1:TVDmWkNg0Iv1C1jDG9QlRC596OJcFboL9/+K5OK9TSk=
 github.com/palantir/pkg v1.1.0 h1:0EhrSUP8oeeh3MUvk7V/UU7WmsN1UiJNTvNj0sN9Cpo=
 github.com/palantir/pkg v1.1.0/go.mod h1:KC9srP/9ssWRxBxFCIqhUGC4Jt7OJkWRz0Iqehup1/c=
 github.com/palantir/pkg/cobracli v1.2.0 h1:hANp5fUB5cX90SVri97Apz4xB3BqnZw0gP2jMQ34G8Y=
