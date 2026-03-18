@@ -6,7 +6,6 @@ package integration_test
 
 import (
 	"bytes"
-	"io/ioutil"
 	"os"
 	"path"
 	"testing"
@@ -43,7 +42,7 @@ generators:
 `
 	err = os.MkdirAll(path.Join(projectDir, "godel", "config"), 0755)
 	require.NoError(t, err)
-	err = ioutil.WriteFile(path.Join(projectDir, "godel", "config", "generate-plugin.yml"), []byte(generateYML), 0644)
+	err = os.WriteFile(path.Join(projectDir, "godel", "config", "generate-plugin.yml"), []byte(generateYML), 0644)
 	require.NoError(t, err)
 
 	specs := []gofiles.GoFileSpec{
@@ -81,7 +80,7 @@ func main() {
 	_, err = gofiles.Write(projectDir, specs)
 	require.NoError(t, err)
 
-	err = ioutil.WriteFile(path.Join(projectDir, "gen", "output.txt"), []byte("original"), 0644)
+	err = os.WriteFile(path.Join(projectDir, "gen", "output.txt"), []byte("original"), 0644)
 	require.NoError(t, err)
 
 	outputBuf := &bytes.Buffer{}
