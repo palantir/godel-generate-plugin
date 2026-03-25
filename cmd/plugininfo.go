@@ -26,7 +26,7 @@ var (
 			"Run generate task",
 			pluginapi.TaskInfoCommand("run"),
 			pluginapi.TaskInfoVerifyOptions(
-				pluginapi.VerifyOptionsOrdering(intVar(verifyorder.Generate)),
+				pluginapi.VerifyOptionsOrdering(new(verifyorder.Generate)),
 				pluginapi.VerifyOptionsApplyFalseArgs("--verify"),
 			),
 		),
