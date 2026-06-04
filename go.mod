@@ -7,7 +7,7 @@ toolchain go1.26.4
 require (
 	github.com/nmiyake/pkg/dirs v1.1.0
 	github.com/nmiyake/pkg/gofiles v1.2.0
-	github.com/palantir/go-generate v1.40.0
+	github.com/palantir/go-generate v1.41.0
 	github.com/palantir/godel/pkg/products/v2 v2.0.0
 	github.com/palantir/godel/v2 v2.156.0
 	github.com/palantir/pkg/cobracli v1.3.0
