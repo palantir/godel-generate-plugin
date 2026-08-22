@@ -54,8 +54,8 @@ github.com/nmiyake/pkg/gofiles v1.2.0/go.mod h1:aPXiVvXPwxNanRNuFIRVPYn6eTC4qxjD
 github.com/nwaples/rardecode v1.1.0/go.mod h1:5DzqNKiOdpKKBH87u8VlvAnPZMXcGRhxWkRpHbbfGS0=
 github.com/nwaples/rardecode v1.1.3 h1:cWCaZwfM5H7nAD6PyEdcVnczzV8i/JtotnyW/dD9lEc=
 github.com/nwaples/rardecode v1.1.3/go.mod h1:5DzqNKiOdpKKBH87u8VlvAnPZMXcGRhxWkRpHbbfGS0=
-github.com/palantir/go-generate v1.43.0 h1:JRoiO3DjpBs5znw3hBbuzq8RNKAeOSbB3uzr+ruAgM4=
-github.com/palantir/go-generate v1.43.0/go.mod h1:VKtKCeFnIET9Tg+KE8kBYzXwQv/Psu83SOwM2vluWH0=
+github.com/palantir/go-generate v1.44.0 h1:OEjzzlMDb8W3m+SEG69qvTNDyc0OOiamRDya1FmMt3w=
+github.com/palantir/go-generate v1.44.0/go.mod h1:Lv53jrh1z1lWSgK1AOwQj3lgLfC0pSeiFEp+wlI6ec0=
 github.com/palantir/godel/pkg/products/v2 v2.0.0 h1:E3DuAEA1yotLLDQt7vIrYRapRwXRyW6u8Yuq2p/qyLs=
 github.com/palantir/godel/pkg/products/v2 v2.0.0/go.mod h1:SaLUycZLVP5qV6mL9MWG3jkX4dS23lJnzpubTGAV4FU=
 github.com/palantir/godel/v2 v2.173.0 h1:NCndRsvJlj/SU4VZys1LFTDzNWriTaKVJO9dc3BZPWI=
