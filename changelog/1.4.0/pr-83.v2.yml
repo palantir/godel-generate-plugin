@@ -1,5 +1,0 @@
-type: improvement
-improvement:
-  description: Update github.com/ulikunitz/xz dependency to v0.5.10
-  links:
-  - https://github.com/palantir/godel-generate-plugin/pull/83
